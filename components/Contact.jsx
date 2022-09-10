@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import laptop from "/./public/Images/laptop.jpg";
+import programer from "/./public/Images/programer.jpg";
 import {
   FaFacebook,
   FaInstagram,
@@ -27,7 +27,7 @@ const Contact = () => {
               <div>
                 <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src={laptop}
+                  src={programer}
                   alt="/"
                 />
               </div>
