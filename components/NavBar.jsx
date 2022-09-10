@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect, useState } from "react";
 
-import ForPC from "./navbarComponents/NavbarForPc";
+import NavbarForPC from "./navbarComponents/NavbarForPc";
 import Block from "./Block";
 import NavbarForMobile from "./navbarComponents/NavbarForMobile";
 
