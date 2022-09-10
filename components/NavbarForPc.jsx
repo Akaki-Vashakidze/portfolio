@@ -7,14 +7,14 @@ const NavbarForPC = (props) => {
   return (
     <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
           <Image
-            src="/../public/Images/navLogo.png"
+            src="/./public/Images/navLogo.png"
             width="125"
             height="50"
             alt="/"
           />
           <div id="bee1" className="ease-in duration-150">
             <Image
-              src="/../public/Images/bees/bee1.png"
+              src="/./public/Images/bees/bee1.png"
               alt="/"
               width="35"
               height="45"
