@@ -3,6 +3,7 @@ import React, { Fragment, useEffect, useState } from "react";
 import NavbarForPC from "./NavbarForPc";
 import Block from "./Block";
 import NavbarForMobile from "./NavbarForMobile";
+import Image from "next/image";
 
 const NavBar = () => {
   let [nav, setNav] = useState(false);
@@ -64,6 +65,10 @@ const NavBar = () => {
       document.getElementById("bee1").style.left = Xpoint + circleX + "px";
       document.getElementById("bee1").style.top = Ypoint + circleY + "px";
       document.getElementById("bee1").style.position = "absolute";
+
+    document.getElementById("text").style.display = "flex";
+      document.getElementById("text").style.left = Xpoint + 50 + "px";
+      document.getElementById("text").style.top = Ypoint - 40 + "px";
       counter += 0.25;
     }, 100);
   };
@@ -74,6 +79,7 @@ const NavBar = () => {
     document.getElementById("bee1").style.position = "relative";
     document.getElementById("bee1").style.left = 0;
     document.getElementById("bee1").style.top = "7px";
+    document.getElementById("text").style.display = "none";
   };
 
   //mouseMove
@@ -100,6 +106,14 @@ const NavBar = () => {
           navHandler={navHandler}
           nav={nav}
         />
+      </div>
+      <div id="text" className="absolute hidden top-[100px]">
+        <Image
+          src="/Images/text.png"
+          alt="/"
+          width="170"
+          height="60"
+          />
       </div>
       <Block />
     </Fragment>

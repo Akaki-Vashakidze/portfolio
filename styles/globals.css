@@ -12,6 +12,10 @@ html {
       @apply bg-[#FDFAE2] text-[#1f2937] tracking-wide;
   }
 
+  #text {
+    z-index: 100;
+  }
+
   h1,h2,h3,h4,h5,h6 {
       @apply font-bold
   }
