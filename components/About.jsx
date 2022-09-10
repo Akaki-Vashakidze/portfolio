@@ -13,18 +13,14 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-          I am a beginner programmer. I have been engaged in this 
-           business for 2 years. I have always had a knack for
-            technology and working with computers. In 2020 I started working
-            with HTML and CSS to make some minor edits on a small business.
-             What I thought was just a few small
-            edits turned into a love for programming.
+             I am a self taught programmer. After 3 years of study, I am ready to start working 
+             in this field. During this time, I faced many obstacles, tested myself and proved to 
+             myself that I can be one of the strongest programmers. Now I want to prove it to you.
           </p>
           <p className='py-2 text-gray-600'>
             Fascinated with how intricate programming can be I was quickly drawn
             to learn more. I started learning javascript and was even more
-            enthused with making websites interactive. I then started
-            freelancing for little companies. I am
+            enthused with making websites interactive. I am
             now spending my time building projects with React JS and
             learning new technologies.
           </p>

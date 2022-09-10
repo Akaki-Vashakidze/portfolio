@@ -81,7 +81,7 @@ const NavbarForMobile = (props) => {
                 <a href="https://www.instagram.com/akaki_vashakidze/?hl=en"><FaInstagram /></a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-150">
-                <a href=""><FaLinkedinIn /></a>
+                <a href="https://www.linkedin.com/in/akaki-vashakidze-824b0624b/"><FaLinkedinIn /></a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-150">
                 <a href="https://www.facebook.com/akaki29/"><FaFacebook /></a>
