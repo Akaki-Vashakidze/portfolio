@@ -31,14 +31,14 @@ const NavbarForMobile = (props) => {
         >
           <div className="flex w-full items-center justify-between">
             <Image
-              src="/./public/Images/navLogo.png"
+              src="/Images/navLogo.png"
               alt="/"
               width="87"
               height="35"
             />
             <div id="bee2" className="ease-in duration-150">
               <Image
-                src="/./public/Images/bees/bee1.png"
+                src="/Images/bees/bee1.png"
                 alt="/"
                 width="35"
                 height="45"
