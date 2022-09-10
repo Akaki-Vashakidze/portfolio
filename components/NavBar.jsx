@@ -1,8 +1,8 @@
 import React, { Fragment, useEffect, useState } from "react";
 
-import NavbarForPC from "./navbarComponents/NavbarForPc";
+import NavbarForPC from "./NavbarForPc";
 import Block from "./Block";
-import NavbarForMobile from "./navbarComponents/NavbarForMobile";
+import NavbarForMobile from "./NavbarForMobile";
 
 const NavBar = () => {
   let [nav, setNav] = useState(false);
