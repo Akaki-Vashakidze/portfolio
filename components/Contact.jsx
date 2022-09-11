@@ -70,7 +70,7 @@ const Contact = () => {
           {/* მარჯვნივ ფორმა და წერილის გაგზავნა */}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
-              <form action="">
+              <form action="https://formspree.io/f/xwkzvywa" method="POST">
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
@@ -115,7 +115,7 @@ const Contact = () => {
                     name="message"
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4">
+                <button value="send" className="w-full p-4 text-gray-100 mt-4">
                   Send Message
                 </button>
               </form>
