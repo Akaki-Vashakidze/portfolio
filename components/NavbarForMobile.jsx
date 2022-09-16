@@ -25,7 +25,7 @@ const NavbarForMobile = (props) => {
         <div
           className={
             props.nav
-              ? "lg:hidden fixed left-0 top-0 w-[75%] sm:w-[65%] md:w-[45%] h-screen bg-[#FDFAE2] p-10 ease-in duration-500"
+              ? "lg:hidden fixed left-0 top-0 w-[75%] sm:w-[65%] md:w-[45%] h-screen bg-[#e9e8df] p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
