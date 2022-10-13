@@ -27,9 +27,6 @@ const swimTeam = () => {
         <p>Project</p>
         <h2>Overview</h2>
         <p>
-          This Website was built using Angular and is hosted on Firebase. This is swim teams's 
-          website where user can search the reasults of athletes, Search their names and get 
-          the information about them. It is also possible to Register a new member of swim team.
         </p>
         <a
           href='https://github.com/Akaki-Vashakidze/embassy-swim-team'
