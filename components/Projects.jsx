@@ -2,10 +2,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import swim from '/./public/Images/swim.jpg';
-import hiking from '/./public/Images/hiking.jpg';
-import sports from '/./public/Images/sports.jpg';
-import food from '/./public/Images/food.jpg';
+import guide from '/./public/Images/guide.png';
+import todo from '/./public/Images/todo.png';
+import swimTeam from '/./public/Images/swimTeam.png';
+import PoolManagement from '/./public/Images/PoolManagement.png';
 
 const Projects = () => {
   return (
@@ -17,31 +17,33 @@ const Projects = () => {
         <h2 className='ml-8 py-4'>What I&apos;ve Built</h2>
         <div className='px-6 grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
-            backgroundImg={swim}
-            projectUrl='/property'
-            tech='React JS'
+            title='Travel App'
+            backgroundImg={guide}
+            projectUrl='/guide'
+            tech='Angular'
+          
           />
           <ProjectItem
-            title='Crypto App'
-            backgroundImg={sports}
-            projectUrl='/crypto'
-            tech='React JS'
-
+            title='Todo App'
+            backgroundImg={todo}
+            projectUrl='/todo'
+            tech='Angular'
+           
           />
           <ProjectItem
-            title='Netflix App'
-            backgroundImg={hiking}
-            projectUrl='/netflix'
-            tech='React JS'
-
+            title='Swim Team Website'
+            backgroundImg={swimTeam}
+            projectUrl='/swimTeam'
+            tech='Angular'
+           
           />
+          
           <ProjectItem
-            title='Twitch UI'
-            backgroundImg={food}
-            projectUrl='/twitch'
-            tech='Next JS'
-
+            title='Pool Management System'
+            backgroundImg={PoolManagement}
+            projectUrl='/PoolManegment'
+            tech='Angular'
+           
           />
         </div>
       </div>
