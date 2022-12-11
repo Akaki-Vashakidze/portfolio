@@ -45,6 +45,9 @@ const Projects = () => {
             tech='Angular'
            
           />
+
+         
+
         </div>
       </div>
     </div>
