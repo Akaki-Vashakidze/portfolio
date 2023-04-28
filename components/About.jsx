@@ -13,16 +13,16 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-             I am a self taught programmer. After 3 years of study, I am ready to start working 
-             in this field. During this time, I faced many obstacles, tested myself and proved to 
-             myself that I can be one of the strongest programmers. Now I want to prove it to you.
+             I am an enthusiastic, self-motivated, reliable, responsible and hard working person. After 3 years of studing programming I desire to start working 
+             in this field. I am adaptable to all challenging situations and able to work well both in a team environment as well as using own initiative.
           </p>
+          
           <p className='py-2 text-gray-600'>
             Fascinated with how intricate programming can be I was quickly drawn
             to learn more. I started learning javascript and was even more
             enthused with making websites interactive. I am
-            now spending my time building projects with React JS and
-            learning new technologies.
+            now spending my time building projects with Angular and
+            learning backend technologies. 
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
