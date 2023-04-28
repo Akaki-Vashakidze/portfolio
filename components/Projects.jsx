@@ -16,6 +16,24 @@ const Projects = () => {
         </p>
         <h2 className='ml-8 py-4'>What I&apos;ve Built</h2>
         <div className='px-6 grid md:grid-cols-2 gap-8'>
+          
+
+          <ProjectItem
+            title='Pool Management System'
+            backgroundImg={PoolManagement}
+            projectUrl='/PoolManegment'
+            tech='Angular'
+
+          />
+
+          <ProjectItem
+            title='Swim competitions registration'
+            backgroundImg={swimComp}
+            projectUrl='/swimComp'
+            tech='Angular'
+
+          />
+
           <ProjectItem
             title='Travel App'
             backgroundImg={guide}
@@ -34,22 +52,6 @@ const Projects = () => {
             title='Swim Team Website'
             backgroundImg={swimTeam}
             projectUrl='/swimTeam'
-            tech='Angular'
-
-          />
-
-          <ProjectItem
-            title='Pool Management System'
-            backgroundImg={PoolManagement}
-            projectUrl='/PoolManegment'
-            tech='Angular'
-
-          />
-
-          <ProjectItem
-            title='Swim competitions registration'
-            backgroundImg={swimComp}
-            projectUrl='/swimComp'
             tech='Angular'
 
           />
