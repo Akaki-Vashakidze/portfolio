@@ -6,7 +6,7 @@ import guide from '/./public/Images/guide.png';
 import todo from '/./public/Images/todo.png';
 import swimTeam from '/./public/Images/swimTeam.png';
 import PoolManagement from '/./public/Images/PoolManagement.png';
-
+import swimComp from '/./public/Images/swimComp.png';
 const Projects = () => {
   return (
     <div id='projects' className='w-full'>
@@ -21,32 +21,38 @@ const Projects = () => {
             backgroundImg={guide}
             projectUrl='/guide'
             tech='Angular'
-          
+
           />
           <ProjectItem
             title='Todo App'
             backgroundImg={todo}
             projectUrl='/todo'
             tech='Angular'
-           
+
           />
           <ProjectItem
             title='Swim Team Website'
             backgroundImg={swimTeam}
             projectUrl='/swimTeam'
             tech='Angular'
-           
+
           />
-          
+
           <ProjectItem
             title='Pool Management System'
             backgroundImg={PoolManagement}
             projectUrl='/PoolManegment'
             tech='Angular'
-           
+
           />
 
-         
+          <ProjectItem
+            title='Swim competitions registration'
+            backgroundImg={swimComp}
+            projectUrl='/swimComp'
+            tech='Angular'
+
+          />
 
         </div>
       </div>
