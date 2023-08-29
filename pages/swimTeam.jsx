@@ -17,8 +17,8 @@ const swimTeam = () => {
         alt='/'
       />
       <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-        <h2 className='py-2'>My swim Team</h2>
-        <h3>Angular / Material / Firebase</h3>
+        <h2 className='py-2'>"Pool Pirates" swim Team</h2>
+        <h3>Angular</h3>
       </div>
     </div>
 
@@ -29,14 +29,14 @@ const swimTeam = () => {
         <p>
         </p>
         <a
-          href='https://github.com/Akaki-Vashakidze/embassy-swim-team'
+          href='https://github.com/Akaki-Vashakidze/pool-pirates'
           target='_blank'
           rel='noreferrer'
         >
           <button className='px-8 py-2 mt-4 mr-8'>Code</button>
         </a>
         <a
-          href='https://embassy-swim-team.vercel.app/main?fbclid=IwAR2vrDOVTSu4zo9ZI23-ruEYXyVEi9u7aDJMUpRBoCpbcQ4qJJUzjWn4E1o'
+          href='pool-pirates-git-master-akaki-vashakidze.vercel.app'
           target='_blank'
           rel='noreferrer'
         >

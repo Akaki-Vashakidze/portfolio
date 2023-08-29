@@ -35,20 +35,6 @@ const Projects = () => {
           />
 
           <ProjectItem
-            title='Travel App'
-            backgroundImg={guide}
-            projectUrl='/guide'
-            tech='Angular'
-
-          />
-          <ProjectItem
-            title='Todo App'
-            backgroundImg={todo}
-            projectUrl='/todo'
-            tech='Angular'
-
-          />
-          <ProjectItem
             title='Swim Team Website'
             backgroundImg={swimTeam}
             projectUrl='/swimTeam'

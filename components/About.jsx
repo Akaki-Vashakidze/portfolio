@@ -13,16 +13,16 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-             I am an enthusiastic, self-motivated, reliable, responsible and hard working person. After 3 years of studing programming I desire to start working 
-             in this field. I am adaptable to all challenging situations and able to work well both in a team environment as well as using own initiative.
+            If you are looking for high quality of results - I am the right person for you and your project.
           </p>
-          
+
           <p className='py-2 text-gray-600'>
-            Fascinated with how intricate programming can be I was quickly drawn
-            to learn more. I started learning javascript and was even more
-            enthused with making websites interactive. I am
-            now spending my time building projects with Angular and
-            learning backend technologies. 
+            I am an experienced web front/back-end developer.
+            I have worked with Angular for over 3 years.
+            Also highly experienced with JS, React, Node.js, Bootstrap, Material, Jquery etc.
+
+            The main goal for me - to take your project and lead it to a successful finish.
+            Done this a lot of times. You can count on me.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
