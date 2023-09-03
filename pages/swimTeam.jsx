@@ -17,8 +17,8 @@ const swimTeam = () => {
         alt='/'
       />
       <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-        <h2 className='py-2'>My swim Team</h2>
-        <h3>Angular / Material / Firebase</h3>
+        <h2 className='py-2'>Pool Pirates swim Team</h2>
+        <h3>Angular</h3>
       </div>
     </div>
 
@@ -29,14 +29,14 @@ const swimTeam = () => {
         <p>
         </p>
         <a
-          href='https://github.com/Akaki-Vashakidze/embassy-swim-team'
+          href='https://github.com/Akaki-Vashakidze/pool-pirates'
           target='_blank'
           rel='noreferrer'
         >
           <button className='px-8 py-2 mt-4 mr-8'>Code</button>
         </a>
         <a
-          href='https://embassy-swim-team.vercel.app/main?fbclid=IwAR2vrDOVTSu4zo9ZI23-ruEYXyVEi9u7aDJMUpRBoCpbcQ4qJJUzjWn4E1o'
+          href='https://pool-pirates.vercel.app/kids/kidsBoard'
           target='_blank'
           rel='noreferrer'
         >
@@ -49,9 +49,6 @@ const swimTeam = () => {
           <div className='grid grid-cols-3 md:grid-cols-1'>
             <p className='text-gray-600 py-2 flex items-center'>
               <RiRadioButtonFill className='pr-1' /> Angular
-            </p>
-            <p className='text-gray-600 py-2 flex items-center'>
-              <RiRadioButtonFill className='pr-1' /> Material
             </p>
             <p className='text-gray-600 py-2 flex items-center'>
               <RiRadioButtonFill className='pr-1' /> Javascript
