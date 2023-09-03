@@ -17,8 +17,8 @@ const swimTeam = () => {
         alt='/'
       />
       <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-        <h2 className='py-2'>Pool Pirates swim Team</h2>
-        <h3>Angular</h3>
+        <h2 className='py-2'>My swim Team</h2>
+        <h3>Angular / Material / Firebase</h3>
       </div>
     </div>
 
@@ -49,6 +49,9 @@ const swimTeam = () => {
           <div className='grid grid-cols-3 md:grid-cols-1'>
             <p className='text-gray-600 py-2 flex items-center'>
               <RiRadioButtonFill className='pr-1' /> Angular
+            </p>
+            <p className='text-gray-600 py-2 flex items-center'>
+              <RiRadioButtonFill className='pr-1' /> Material
             </p>
             <p className='text-gray-600 py-2 flex items-center'>
               <RiRadioButtonFill className='pr-1' /> Javascript
